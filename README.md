@@ -183,13 +183,13 @@ console.log(hoge);
     > This is a note
 
     > **Warning**  
-    > This is a warnin
+    > This is a warning
 ### 結果
 > **Note**  
 > This is a note
 
 > **Warning**  
-> This is a warnin
+> This is a warning
 ***
 <br><br>
 
