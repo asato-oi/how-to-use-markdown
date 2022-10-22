@@ -88,11 +88,17 @@
 <br><br>
 
 ## リンク
-    <https://qiita.com/Qiita/items/c686397e4a0f4f11683d>
-    [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+
+    https://asatooi-portfolio.netlify.app/
+    
+    [AsatoOiのポートフォリオ](https://asatooi-portfolio.netlify.app/)
+
 ### 結果
-<https://qiita.com/Qiita/items/c686397e4a0f4f11683d>  
-[Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+
+https://asatooi-portfolio.netlify.app/  
+
+[AsatoOiのポートフォリオ](https://asatooi-portfolio.netlify.app/)
+
 ***
 <br><br>
 
@@ -204,7 +210,54 @@ console.log(hoge);
 ***
 <br><br>
 
+## テーブル
+    | Left align | Right align | Center align |
+    |:-----------|------------:|:------------:|
+    | This       | This        | This         |
+    | column     | column      | column       |
+    | will       | will        | will         |
+    | be         | be          | be           |
+    | left       | right       | center       |
+    | aligned    | aligned     | aligned      |
+***
+### 結果
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       | This        | This         |
+| column     | column      | column       |
+| will       | will        | will         |
+| be         | be          | be           |
+| left       | right       | center       |
+| aligned    | aligned     | aligned      |
+***
+<br><br>
 
+## 数式
+    ```math
+    \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+    \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+    ```
+### 結果
+ ```math
+ \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+ \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+ ```
+***
+<br><br>
 
-
-
+ ## Mermaid
+    ```mermaid
+    graph TD;
+        A-->B;
+        A-->C;
+        B-->D;
+        C-->D;
+    ```
+### 結果
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```  
