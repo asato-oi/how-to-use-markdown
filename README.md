@@ -186,10 +186,10 @@ console.log(hoge);
     > This is a warning
 ### 結果
 > **Note**  
-> This is a note
+> githubでは表示されます。
 
 > **Warning**  
-> This is a warning
+> githubでは表示されます。
 ***
 <br><br>
 
